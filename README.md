@@ -10,5 +10,13 @@ Diving into **CSS**, styling web pages, and practicing exciting **CSS exercises*
 Exploring **JavaScript basics** to add interactivity to web pages:  
 - 🔄 **Loops** ( `for` , `while` , `do-while` )  
 - 📦 **Arrays & array methods** ( `map` , `filter` , `reduce` )  
-- ⚙️ **Built-in functions** for writing efficient and cleaner code  
+- ⚙️ **Built-in functions** for writing efficient and cleaner code
+
+  ## 🏗️ Week 5
+Diving deeper into JavaScript concepts:
+
+- **Machine coding on Prototypes**
+- **JS Objects and Prototypes**
+- **Introduction to the DOM**
+- **Built a To-Do App** using JavaScript, HTML, and CSS to apply our learning!
 
