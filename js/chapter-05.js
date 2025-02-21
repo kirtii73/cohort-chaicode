@@ -25,3 +25,18 @@ Array.prototype.myForEach = function (userFn) {
   console.log(squared); 
 
 
+Array.prototype.myEvery = function (userFn) {
+  for (let i = 0; i < this.length; i++) {
+    if (!userFn(this[i], i, this)) {
+      return false;
+    }
+  }
+  return true;
+};
+
+
+const marks = [80, 90, 85, 70];
+const allPass = marks.myEvery(mark => mark >= 50);
+console.log(allPass); 
+
+
