@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#timestamp {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#date {
+    font-size: 18px;
+    color: gray;
+    margin-top: 10px;
+}
